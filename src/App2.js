@@ -83,7 +83,7 @@ function App() {
 
   return (
     <div>
-      <Header title="나의 할일" onChangeMode={()=>{
+      <Header title="[나의 할일]" onChangeMode={()=>{
       }}></Header>
       <Body topics={topics} onChangeMode={(_id)=>{
         setType('READ');
