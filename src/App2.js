@@ -51,7 +51,7 @@ function App() {
     {id:0, title:'보험료', body:'각종 보혐료 납부'},
     {id:1, title:'세금계산서', body:'세금계산서 발행'},
     {id:2, title:'카드값', body:'카드값 납부'},
-    {id:2, title:'공과금', body:'공과금 납부'}
+    {id:3, title:'공과금', body:'공과금 납부'}
   ]);
 
   let content = '';
