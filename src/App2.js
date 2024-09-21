@@ -46,13 +46,15 @@ function Create(props) {
 function App() {
   const [type, setType] = useState('WELCOME');
   const [id, setId] = useState(null);
-  const [nextId, setNextId] = useState(4);
+  const [nextId, setNextId] = useState(6);
   const [topics, setTopics] = useState([
     {id:0, title:'보험료', body:'각종 보혐료 납부'},
     {id:1, title:'세금계산서', body:'세금계산서 발행'},
     {id:2, title:'카드값', body:'카드값 납부'},
     {id:3, title:'공과금', body:'공과금 납부'},
-    {id:4, title:'월세', body:'월세 입금'}
+    {id:4, title:'월세', body:'월세 입금'},
+    {id:5, title:'소득세', body:'소득세 납부'},
+    {id:6, title:'지방세', body:'지방세 납부'}
   ]);
 
   let content = '';
