@@ -55,7 +55,7 @@ function App() {
     {id:4, title:'월세', body:'월세 입금'},
     {id:5, title:'소득세', body:'소득세 납부'},
     {id:6, title:'지방세', body:'지방세 납부'},
-    {id:7, title:'국세', body:'국세 납부..'}
+    {id:7, title:'국세', body:'국세 납부'}
   ]);
 
   let content = '';
